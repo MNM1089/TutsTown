@@ -13,29 +13,39 @@ h1{
 
 .header-style{
 	text-align: center;
+
 }
 
 #header-img{
 	width: 650px;
+	border-radius: 50px;
+	border: 5px dashed red;
 }
-/* header style end and main style begin*/
+
+/*header styling end*/
+
+/*main.styling*/
+.store-section{
+	display: flex;
+	justify-content:center;
+}
 .main-img{
 	height: 200px;
 	width: 200px;
 }
-.main-heading{
-	color:#205D76;
-	font-size: 30px;
+
+.mainheading{
+	color: green;
 }
+
 .list-text{
-	color:orange;
+	color: orange;
 }
+
 .list-text2{
-	color:orange;
+	color: orange;
 	font-size: 22px;
 }
-
-
 
 footer{
 	background-color:#ffc122;
@@ -43,5 +53,4 @@ footer{
 	color:white;
 	font-size: 20px;
 	padding: 10px;
-
 }
